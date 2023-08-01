@@ -1,19 +1,14 @@
 import 'dart:async';
-import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
-
-import 'package:audioplayers/audioplayers.dart';
 import 'package:elevenlabai/controllers/recording_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 
 import 'package:http/http.dart' as http;
-import 'package:flutter/services.dart' show rootBundle;
 import 'package:record/record.dart';
 
-import 'audio_record.dart';
 import 'call_ended_screen.dart';
 import 'controllers/audio_controller.dart';
 
